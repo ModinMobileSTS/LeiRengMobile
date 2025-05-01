@@ -8,7 +8,7 @@ import ninja.cards.special.HuashanSmog;
 import ninja.cards.special.LanBlade;
 import ninja.cards.yellow.TestStrike;
 import ninja.character.Mycharacter;
-import ninja.Ninja;import ninja.enums.CardColorEnum;
+import static ninja.Ninja.getResourcePath;import ninja.Ninja;import ninja.enums.CardColorEnum;
 import ninja.enums.LibraryTypeEnum;
 import ninja.helpers.Keyword;
 import com.badlogic.gdx.graphics.Color;
@@ -225,22 +225,14 @@ public class Ninja implements EditCardsSubscriber,
 
     @Override
     public void receiveEditKeywords() {
-        String language;
-        switch (Settings.language) {
-            case ZHS:
-                language = "zhs";
-                break;
-            default:
-                language = "eng";
-        }
-        final Gson gson = new Gson();
-        final String json = AssetLoader.getString(MOD_ID, "localization/" + language + "/Ninja_characters-zh.json");
-        Keyword[] keywords = gson.fromJson(json, Keyword[].class);
-        if (keywords != null) {
-            for (Keyword keyword : keywords) {
-                BaseMod.addKeyword(keyword.PROPER_NAME, keyword.NAMES, keyword.DESCRIPTION);
-            }
-        }
+        BaseMod.addKeyword(null, new String[] { "蕾克拉" }, "释放忍术所必需的特殊的能量 ， 上限999层");
+        BaseMod.addKeyword(null, new String[] { "忍术" }, "消耗X点蕾克拉发动额外效果 ， 默认为1点");
+        BaseMod.addKeyword(null,new String[]{"手系忍术"},"手系忍术的流派");
+        BaseMod.addKeyword(null,new String[]{"刀系忍术"},"刀系忍术的流派（包括小刀）");
+        BaseMod.addKeyword(null,new String[]{"科学忍具"},"蕾克拉会减少 [E] 消耗，打出时减少1点蕾克拉，会覆盖其他减费效果");
+        BaseMod.addKeyword(null,new String[]{"砂壁"},"回合开始时获得等于层数的格挡并减少一半的层数");
+        BaseMod.addKeyword(null,new String[]{"豌豆射手"},"你的回合结束时，造成2点伤害，次数等同于层数");
+        BaseMod.addKeyword(null,new String[]{"死神火焰"},"你每打出一张牌，使其损失对应层数的生命值，消除死亡律动");
     }
 
     @Override

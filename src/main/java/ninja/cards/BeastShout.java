@@ -3,7 +3,7 @@ package ninja.cards;
 import ninja.actions.BeastShoutAction;
 import ninja.actions.NinjutsuAction;
 import ninja.actions.PlaySoundAction;
-import ninja.Ninja;import ninja.enums.CardColorEnum;
+import static ninja.Ninja.getResourcePath;import ninja.Ninja;import ninja.enums.CardColorEnum;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.android.mods.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -16,7 +16,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
-import com.megacrit.cardcrawl.monsters.AbstractMonster;import ninja.Ninja;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;import static ninja.Ninja.getResourcePath;import ninja.Ninja;
 import com.megacrit.cardcrawl.vfx.combat.ReaperEffect;
 import com.megacrit.cardcrawl.vfx.combat.ShockWaveEffect;
 

@@ -1,6 +1,6 @@
 package ninja.cards;
 
-import ninja.Ninja;import ninja.enums.CardColorEnum;
+import static ninja.Ninja.getResourcePath;import ninja.Ninja;import ninja.enums.CardColorEnum;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import ninja.powers.LexKela;
 import com.megacrit.cardcrawl.android.mods.abstracts.CustomCard;
@@ -11,7 +11,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
-import com.megacrit.cardcrawl.monsters.AbstractMonster;import ninja.Ninja;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;import static ninja.Ninja.getResourcePath;import ninja.Ninja;
 
 public class PastHasGoneHand extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("PastHasGoneHand");

@@ -1,14 +1,14 @@
 package ninja.relics;
 
 import com.megacrit.cardcrawl.helpers.ImageMaster;
-import ninja.Ninja;
+import static ninja.Ninja.getResourcePath;import ninja.Ninja;
 import ninja.actions.PlaySoundAction;
 import ninja.powers.DimDeadTreePower;
 import com.megacrit.cardcrawl.android.mods.abstracts.CustomRelic;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.android.mods.AssetLoader;
-import ninja.Ninja;
+import static ninja.Ninja.getResourcePath;import ninja.Ninja;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 
 public class DimDeadTree extends CustomRelic {

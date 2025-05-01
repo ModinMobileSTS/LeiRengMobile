@@ -1,9 +1,9 @@
 package ninja.character;
 
-import ninja.Ninja;
+import static ninja.Ninja.getResourcePath;import ninja.Ninja;
 import ninja.cards.ShakeShakeHands;
 import ninja.characters.NinjaPanel;
-import ninja.Ninja;import ninja.enums.CardColorEnum;
+import static ninja.Ninja.getResourcePath;import ninja.Ninja;import ninja.enums.CardColorEnum;
 import ninja.powers.PainPower;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;

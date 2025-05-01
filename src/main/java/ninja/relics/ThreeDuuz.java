@@ -8,7 +8,7 @@ import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.android.mods.AssetLoader;
-import ninja.Ninja;
+import static ninja.Ninja.getResourcePath;import ninja.Ninja;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 
 public class ThreeDuuz extends CustomRelic {
