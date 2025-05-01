@@ -39,7 +39,7 @@ public class Ninja implements EditCardsSubscriber,
     public static final Color YELLOW_COLOR = new Color(0.98F, 0.95F, 0.05F, 1.0F);
 
     // 人物选择界面的立绘
-    private static final String MY_CHARACTER_PORTRAIT = getResourcePath("img/charSelect/NinjaPortrait.png");
+    private static final String MY_CHARACTER_PORTRAIT ="img/charSelect/NinjaPortrait.png";
     private static final String MOD_BADGE = "img/UI_Ninja/badge.png";
     //攻击、技能、能力牌的图片(512)
     private static final String ATTACK_CC = "img/512/bg_attack_512.png";
@@ -78,8 +78,8 @@ public class Ninja implements EditCardsSubscriber,
         bundle.attackBg = getResourcePath(ATTACK_CC);
         bundle.skillBg = getResourcePath(SKILL_CC);
         bundle.powerBg = getResourcePath(POWER_CC);
-        bundle.cardEnergyOrb = getResourcePath(CARD_ENERGY_ORB);
-        bundle.energyOrb = getResourcePath(ENERGY_ORB_CC);
+        bundle.cardEnergyOrb = getResourcePath(ENERGY_ORB_CC);
+        bundle.energyOrb = getResourcePath(CARD_ENERGY_ORB);
         bundle.attackBgPortrait = getResourcePath(ATTACK_CC_PORTRAIT);
         bundle.skillBgPortrait = getResourcePath(SKILL_CC_PORTRAIT);
         bundle.powerBgPortrait = getResourcePath(POWER_CC_PORTRAIT);
@@ -87,6 +87,7 @@ public class Ninja implements EditCardsSubscriber,
         bundle.setEnergyPortraitWidth(164);
         bundle.setEnergyPortraitHeight(164);
         BaseMod.addColor(bundle);
+
     }
 
     public static String makeId(String name) {

@@ -1,6 +1,9 @@
 package ninja.character;
 
-import static ninja.Ninja.getResourcePath;import ninja.Ninja;
+import static ninja.Ninja.getResourcePath;
+
+import com.megacrit.cardcrawl.audio.SoundMaster;
+import ninja.Ninja;
 import ninja.cards.ShakeShakeHands;
 import ninja.characters.NinjaPanel;
 import static ninja.Ninja.getResourcePath;import ninja.Ninja;import ninja.enums.CardColorEnum;
@@ -153,6 +156,7 @@ public class Mycharacter extends CustomPlayer {
         UnlockTracker.markRelicAsSeen("LotusBox");
         return retVal;
     }
+
 
     public CharSelectInfo getLoadout() {
         return new CharSelectInfo(
