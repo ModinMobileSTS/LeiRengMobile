@@ -21,7 +21,7 @@ public class TestStrike extends CustomCard {
     private static final int COST = 1;
 
     public TestStrike() {
-        super(ID, NAME, IMG_PATH, COST, DESCRIPTION, TYPE, CardColorEnum.YELLOW, CardRarity.BASIC, CardTarget.ENEMY);
+        super(ID, NAME, IMG_PATH, COST, DESCRIPTION, TYPE, CardColorEnum.SILVER, CardRarity.BASIC, CardTarget.ENEMY);
         this.baseDamage = 6;
     }
 

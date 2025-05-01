@@ -1,9 +1,0 @@
-{
-  "AndroidTestMod:RuneOctahedron": {
-    "NAME": "符文正八面体",
-    "FLAVOR": "上面的符文无法辨识。",
-    "DESCRIPTIONS": [
-      "你的牌组中每有一张 #r诅咒 牌，在每回合的开始多抽 #b1 张牌。"
-    ]
-  }
-}
