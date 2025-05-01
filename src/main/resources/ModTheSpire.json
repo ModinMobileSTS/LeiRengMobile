@@ -1,9 +1,9 @@
 {
-  "modId": "AndroidTestMod",
-  "modName": "Android Test Mod",
+  "modId": "Ninja",
+  "modName": "蕾忍mod",
   "modVersion": "1.1",
   "descriptions": {
-    "zhs": ["安卓爬塔人物测试mod"],
+    "zhs": ["蕾忍mod.移植自steam同名mod"],
     "eng": ["STS android test mod."]
   },
   "authorList": ["Temple9"],
