@@ -17,8 +17,15 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 
+    buildTypes {
+        release {
+            @Suppress("UnstableApiUsage")
+            vcsInfo.include = false
+        }
+    }
+
     applicationVariants.all {
-        val outputFileName = "LeiRengMod-$versionName.apk"
+        val outputFileName = "LeiRengMod-$versionName.jar"
         outputs.all {
             val output = this as com.android.build.gradle.internal.api.BaseVariantOutputImpl
             output.outputFileName = outputFileName
