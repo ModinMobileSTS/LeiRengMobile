@@ -1,0 +1,173 @@
+{
+  "LexKela": {
+    "NAME": "Lexra",
+    "DESCRIPTIONS": [
+      "You have #b",
+      " Lexra for using Jutsus."
+            ]
+  },
+  "BladePowerUp": {
+    "NAME": "Hone",
+    "DESCRIPTIONS":[
+      "Increases damage from Blade Jutsus by #b",
+      " ."
+      ]
+  },
+  "SwallowPower": {
+    "NAME": "Enhen",
+    "DESCRIPTIONS": [
+      "When using #yJutsus, draw #b",
+      " card(s)."
+    ]
+  },
+  "GoodNightPower": {
+    "NAME": "Sweet Dreams",
+    "DESCRIPTIONS": [
+      "Good night!"
+    ]
+  },
+  "ShitPower": {
+    "NAME": "Suspicious Edibles",
+    "DESCRIPTIONS": [
+      "Gross... Gain #b",
+      " Lexra next turn."
+    ]
+  },
+  "NuclearDragonPower": {
+    "NAME": "Nuclear Reaction",
+    "DESCRIPTIONS":[
+      "At the start of your turn, gain #b",
+      " #yLexra. At the end of your turn, if you have #yLexra, clear your #y Lexra, gain #b6 #yBlock and #b1 #yStrength."
+    ]
+  },
+  "GetAllHandsPower": {
+    "NAME": "Grand Hand",
+    "DESCRIPTIONS":[
+      "#yTouch #yJutsus cost #b0 until your next turn. Whenever you use #yTouch #yJustu, #yExhaust it and draw a card.",
+      "Whenever you use #yTouch #yJustu, #yExhaust it and draw a card."
+    ]
+  },
+  "MummyPower": {
+    "NAME": "Mummify",
+    "DESCRIPTIONS": [
+      "Whenever you use #yLexra, gain #b",
+      " #yBlock."
+    ]
+  },
+  "DisappointedPower": {
+    "NAME": "Aftermath",
+    "DESCRIPTIONS": [
+      "You feel disappointed..."
+    ]
+  },
+  "SciencePower": {
+    "NAME": "Science!",
+    "DESCRIPTIONS": [
+      "The next #b",
+      " #rScience Ningus will be used twice."
+    ]
+  },
+  "IgnisHealingPower": {
+    "NAME": "Vulcan",
+    "DESCRIPTIONS": [
+      "Take NL #r",
+      " damage next turn."
+    ]
+  },
+  "LanBladePower":{
+    "NAME": "Battou",
+    "DESCRIPTIONS": [
+      "Whenever you use #yBlade #yJutsu, add #b",
+      " #yArashi #yBlade to your hand."
+    ]
+  },
+  "HeavenCrossPower":{
+    "NAME": "Heaven Cross",
+    "DESCRIPTIONS": [
+      "Whenever you use #yJutsu, gain #b",
+      " #yLexra."
+    ]
+  },
+
+  "RadiationAnnihilationPower":{
+    "NAME": "Radiation",
+    "DESCRIPTIONS": [
+      "Annihilation will happen if too much #yRadiation is taken in... At the end of the turn, reduce #yRadiation by #b1."
+    ]
+  },
+  "SandWall":{
+    "NAME": "Dust Barrier",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #b",
+      " #yBlock."
+    ]
+  },
+  "PainPower":{
+    "NAME": "Pain",
+    "DESCRIPTIONS": [
+      "Pain. Pain!"
+    ]
+  },
+  "ScarePower":{
+    "NAME": "Amazed",
+    "DESCRIPTIONS": [
+      "At the start of your turn, use #b",
+      " #yJutsu(s)."
+    ]
+  },
+  "ShenWeiPower":{
+    "NAME": "Kamui",
+    "DESCRIPTIONS": [
+      "At the start of your turn, lose #b1 #yLexra, gain #b1 #gIntangible."
+    ]
+  },
+  "DimDeadTreePower":{
+    "NAME": "Vitality",
+    "DESCRIPTIONS": [
+      "The next #yJutsu you use won't cost #yLexra."
+    ]
+  },
+  "IRepresentShinobiPower":{
+    "NAME": "Sbinobi",
+    "DESCRIPTIONS": [
+      "Whenever you lose #yLexra, gain [E]."
+    ]
+  },
+  "NinjaFlight":{
+    "NAME": "Flight",
+    "DESCRIPTIONS": [
+      "Receives #b50% less #yattack damage. Cancelled if taken attack damage #b",
+      " times in one turn."
+    ]
+
+  },
+  "PeaShooter":{
+    "NAME": "PeaShooter",
+    "DESCRIPTIONS": [
+      "At the end of your turn, randomly deal #b2 damage for #b",
+      " times."
+    ]
+  },
+  "TurbinePower":{
+    "NAME": "Turbo",
+    "DESCRIPTIONS": [
+      "Whenever you use #yScience Ningus, draw #b",
+      " card(s)."
+    ]
+  },
+  "BuildSandWallPower":{
+    "NAME": "Frozen Tears",
+    "DESCRIPTIONS": [
+      "Your #yDust #yBarrier only decrease by #b1 each turn."
+    ]
+  },
+
+
+  "DeathGodFlame":{
+    "NAME": "Hades Flame",
+    "DESCRIPTIONS": [
+      "Whenever you play a card, lose #b ",
+      " HP. Removes Beat of Death."
+    ]
+  }
+}

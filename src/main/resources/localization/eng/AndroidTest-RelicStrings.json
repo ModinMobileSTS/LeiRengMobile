@@ -1,9 +1,0 @@
-{
-  "AndroidTestMod:RuneOctahedron": {
-    "NAME": "Runic Octahedron",
-    "FLAVOR": "The runes are indecipherable.",
-    "DESCRIPTIONS": [
-      "For each #rCurse in your deck, at the start of each turn, draw #b1 card."
-    ]
-  }
-}
