@@ -7,12 +7,11 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        minSdk = 21
+        minSdk = 24
         versionName = "1.0"
     }
 
     compileOptions {
-        isCoreLibraryDesugaringEnabled = true
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
@@ -34,7 +33,6 @@ android {
 }
 
 dependencies {
-    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs_nio:2.1.5")
     compileOnly(fileTree("dir" to "libs", "include" to listOf("*.jar")))
     //noinspection GradleDependency
     compileOnly("com.badlogicgames.gdx:gdx:1.9.10")
