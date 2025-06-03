@@ -1,9 +1,9 @@
 {
   "modId": "Ninja",
   "modName": "蕾忍mod",
-  "modVersion": "1.2",
+  "modVersion": "1.3",
   "descriptions": {
-    "zhs": ["蕾忍mod.移植自steam同名mod"],
+    "zhs": ["蕾忍mod.移植自steam同名mod,如果此mod名字为红色，请将本体版本更新至最新，新增卡牌语音"],
     "eng": ["STS android test mod."]
   },
   "authorList": ["Temple9"],
