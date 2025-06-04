@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         minSdk = 24
-        versionName = "1.0"
+        versionName = "1.1"
     }
 
     compileOptions {
